@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="380" height="190" viewBox="0, 0, 380, 190">
+  <g id="Background">
+    <rect x="0" y="0" width="380" height="190" fill="#000000" fill-opacity="0"/>
+  </g>
+  <g id="Layer_1">
+    <g>
+      <path d="M95.5,184.167 C46.531,184.167 6.833,144.469 6.833,95.5 C6.833,46.531 46.531,6.833 95.5,6.833 C144.469,6.833 184.167,46.531 184.167,95.5 C184.167,144.469 144.469,184.167 95.5,184.167 z" fill="#8FC7ED"/>
+      <path d="M95.5,184.167 C46.531,184.167 6.833,144.469 6.833,95.5 C6.833,46.531 46.531,6.833 95.5,6.833 C144.469,6.833 184.167,46.531 184.167,95.5 C184.167,144.469 144.469,184.167 95.5,184.167 z" fill-opacity="0" stroke="#294270" stroke-width="2.533"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 29.113, 57.95)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">10</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 57.134, 28.662)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">11</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 95, 19)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">12</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 18.212, 95)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">9</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 29.113, 133.633)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">8</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 57.134, 162.45)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 95, 174.167)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.567, 132.05)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 172.468, 95)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">3</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.567, 56.05)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 133.883, 28.662)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">1</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 133.883, 162.45)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">5</tspan>
+    </text>
+    <g>
+      <path d="M95.5,98.667 C93.751,98.667 92.333,97.249 92.333,95.5 C92.333,93.751 93.751,92.333 95.5,92.333 C97.249,92.333 98.667,93.751 98.667,95.5 C98.667,97.249 97.249,98.667 95.5,98.667 z" fill="#294371"/>
+      <path d="M95.5,98.667 C93.751,98.667 92.333,97.249 92.333,95.5 C92.333,93.751 93.751,92.333 95.5,92.333 C97.249,92.333 98.667,93.751 98.667,95.5 C98.667,97.249 97.249,98.667 95.5,98.667 z" fill-opacity="0" stroke="#000000" stroke-width="0.633"/>
+    </g>
+    <g>
+      <path d="M285.5,184.167 C236.531,184.167 196.833,144.469 196.833,95.5 C196.833,46.531 236.531,6.833 285.5,6.833 C334.469,6.833 374.167,46.531 374.167,95.5 C374.167,144.469 334.469,184.167 285.5,184.167 z" fill="#8FC7ED"/>
+      <path d="M285.5,184.167 C236.531,184.167 196.833,144.469 196.833,95.5 C196.833,46.531 236.531,6.833 285.5,6.833 C334.469,6.833 374.167,46.531 374.167,95.5 C374.167,144.469 334.469,184.167 285.5,184.167 z" fill-opacity="0" stroke="#294270" stroke-width="2.533"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 219.113, 57.95)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">10</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 247.134, 28.662)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">11</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 285, 19)">
+      <tspan x="-10.901" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">12</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 208.212, 95)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">9</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 219.113, 133.633)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">8</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 247.134, 162.45)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 285, 174.167)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 351.567, 132.05)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 362.468, 95)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">3</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 351.567, 56.05)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 323.883, 28.662)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">1</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 323.883, 162.45)">
+      <tspan x="-5.45" y="7.333" font-family="Roboto-Bold" font-size="19" fill="#294270">5</tspan>
+    </text>
+    <g>
+      <path d="M285.5,98.667 C283.751,98.667 282.333,97.249 282.333,95.5 C282.333,93.751 283.751,92.333 285.5,92.333 C287.249,92.333 288.667,93.751 288.667,95.5 C288.667,97.249 287.249,98.667 285.5,98.667 z" fill="#294371"/>
+      <path d="M285.5,98.667 C283.751,98.667 282.333,97.249 282.333,95.5 C282.333,93.751 283.751,92.333 285.5,92.333 C287.249,92.333 288.667,93.751 288.667,95.5 C288.667,97.249 287.249,98.667 285.5,98.667 z" fill-opacity="0" stroke="#000000" stroke-width="0.633"/>
+    </g>
+    <path d="M111.333,92.333 C111.333,102.827 104.245,111.333 95.5,111.333" fill-opacity="0" stroke="#F0801A" stroke-width="1.9"/>
+    <g>
+      <path d="M95.5,95.5 L121.178,88.62" fill-opacity="0" stroke="#006CA9" stroke-width="4.75" stroke-linecap="round"/>
+      <path d="M122.536,93.691 L134.7,84.996 L119.819,83.549 z" fill="#006CA9" fill-opacity="1" stroke="#006CA9" stroke-width="4.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M95.5,95.5 L95.5,149.993" fill-opacity="0" stroke="#006CA9" stroke-width="2.533" stroke-linecap="round"/>
+      <path d="M95.5,149.993 L91.58,147.38 L95.5,157.833 L99.42,147.38 z" fill="#006CA9" fill-opacity="1" stroke="#006CA9" stroke-width="2.533" stroke-opacity="1"/>
+    </g>
+    <path d="M269.667,101.833 C266.5,89.167 280.05,76.5 298.167,86" fill-opacity="0" stroke="#F0801A" stroke-width="1.9"/>
+    <g>
+      <path d="M285.297,95.5 L306.245,79.134" fill-opacity="0" stroke="#006CA9" stroke-width="4.75" stroke-linecap="round"/>
+      <path d="M309.478,83.271 L317.277,70.514 L303.013,74.997 z" fill="#006CA9" fill-opacity="1" stroke="#006CA9" stroke-width="4.75" stroke-opacity="1"/>
+    </g>
+    <g>
+      <path d="M285.297,95.5 L233.471,112.339" fill-opacity="0" stroke="#006CA9" stroke-width="2.533" stroke-linecap="round"/>
+      <path d="M233.471,112.339 L234.745,107.804 L226.015,114.762 L237.168,115.26 z" fill="#006CA9" fill-opacity="1" stroke="#006CA9" stroke-width="2.533" stroke-opacity="1"/>
+    </g>
+  </g>
+</svg>
