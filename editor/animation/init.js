@@ -40,9 +40,9 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
             }
 
             //YOUR FUNCTION NAME
-            var fname = 'checkio';
+            var fname = 'clock_angle';
 
-            var checkioInput = data.in;
+            var checkioInput = data.in || "14:30";
             var checkioInputStr = fname + '(' + JSON.stringify(checkioInput) + ')';
 
             var failError = function (dError) {
@@ -68,6 +68,9 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
 
             $content.find('.call').html(checkioInputStr);
             $content.find('.output').html('Working...');
+
+            var svg = new SVG($content.find(".explanation")[0]);
+            svg.draw(checkioInput);
 
 
             if (data.ext) {
@@ -121,22 +124,51 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
 //            });
 //        });
 
-        var colorOrange4 = "#F0801A";
-        var colorOrange3 = "#FA8F00";
-        var colorOrange2 = "#FAA600";
-        var colorOrange1 = "#FABA00";
+        function SVG(dom) {
 
-        var colorBlue4 = "#294270";
-        var colorBlue3 = "#006CA9";
-        var colorBlue2 = "#65A1CF";
-        var colorBlue1 = "#8FC7ED";
+            var colorOrange4 = "#F0801A";
+            var colorOrange3 = "#FA8F00";
+            var colorOrange2 = "#FAA600";
+            var colorOrange1 = "#FABA00";
 
-        var colorGrey4 = "#737370";
-        var colorGrey3 = "#9D9E9E";
-        var colorGrey2 = "#C5C6C6";
-        var colorGrey1 = "#EBEDED";
+            var colorBlue4 = "#294270";
+            var colorBlue3 = "#006CA9";
+            var colorBlue2 = "#65A1CF";
+            var colorBlue1 = "#8FC7ED";
 
-        var colorWhite = "#FFFFFF";
+            var colorGrey4 = "#737370";
+            var colorGrey3 = "#9D9E9E";
+            var colorGrey2 = "#C5C6C6";
+            var colorGrey1 = "#EBEDED";
+
+            var colorWhite = "#FFFFFF";
+
+            var pad = 10;
+            var paper;
+
+            var R = 150;
+            var inR = 135;
+
+            var aText = {"font-family": "Roboto, Arial, sans", "stroke": colorBlue4, "font-size": 30};
+            var aHour = {"stroke": colorBlue3, "stroke-width": 6};
+            var aMinute = {"stroke": colorBlue3, "stroke-width": 4};
+            var aClock = {"stroke": colorBlue4, "fill": colorBlue1, "stroke-width": 3};
+
+            this.draw = function(data) {
+                paper = Raphael(dom, (R + pad) * 2, (R + pad) * 2);
+                paper.circle(R +pad,  R + pad, R).attr(aClock);
+                paper.circle(R +pad,  R + pad, 1).attr(aClock);
+
+                for (var i = 1; i <= 12; i++) {
+                    var angle = (90 - 30 * i) / (Math.PI * 2);
+                    var x = Math.cos(angle) * inR + R + pad;
+                    var y = -1 * Math.sin(angle) * inR + R + pad;
+                    paper.text(x, y, i).attr(aText);
+                }
+            }
+
+        }
+
         //Your Additional functions or objects inside scope
         //
         //
