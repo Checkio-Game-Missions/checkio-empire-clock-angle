@@ -160,7 +160,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
                 paper.circle(R +pad,  R + pad, 1).attr(aClock);
 
                 for (var i = 1; i <= 12; i++) {
-                    var angle = (90 - 30 * i) / (Math.PI * 2);
+                    var angle = (90 - 30 * i) * (Math.PI / 180);
                     var x = Math.cos(angle) * inR + R + pad;
                     var y = -1 * Math.sin(angle) * inR + R + pad;
                     paper.text(x, y, i).attr(aText);
