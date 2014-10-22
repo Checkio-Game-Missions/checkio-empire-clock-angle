@@ -46,8 +46,8 @@ api.add_listener(
             'python-27': cover,
             'python-3': cover
         },
-        function_name="clock_angle"
-        # checker=None,  # checkers.float.comparison(2)
+        function_name="clock_angle",
+        checker=checkers.float_comparison(1)
         # add_allowed_modules=[],
         # add_close_builtins=[],
         # remove_allowed_modules=[]
