@@ -147,7 +147,10 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
             var paper;
 
             var R = 150;
-            var inR = 135;
+            var inR = 130;
+
+            var hLen = 70;
+            var mLen = 100;
 
             var aText = {"font-family": "Roboto, Arial, sans", "stroke": colorBlue4, "font-size": 30};
             var aHour = {"stroke": colorBlue3, "stroke-width": 6};
@@ -156,15 +159,30 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
 
             this.draw = function(data) {
                 paper = Raphael(dom, (R + pad) * 2, (R + pad) * 2);
-                paper.circle(R +pad,  R + pad, R).attr(aClock);
-                paper.circle(R +pad,  R + pad, 1).attr(aClock);
+
+                var center = R + pad;
+
+                paper.circle(center,  center, R).attr(aClock);
+                paper.circle(center,  center, 1).attr(aClock);
+
+
 
                 for (var i = 1; i <= 12; i++) {
                     var angle = (90 - 30 * i) * (Math.PI / 180);
-                    var x = Math.cos(angle) * inR + R + pad;
-                    var y = -1 * Math.sin(angle) * inR + R + pad;
+                    var x = Math.cos(angle) * inR + center;
+                    var y = -1 * Math.sin(angle) * inR + center;
                     paper.text(x, y, i).attr(aText);
                 }
+
+                var time = data.split(":");
+                var hour = Number(time[0]);
+                var minute = Number(time[1]);
+
+                var hourHand = paper.path(["M", center, center], ["V", center - hLen]).attr(aHour);
+
+                var minHand = paper.path(["M", center, center], ["V", center - mLen]).attr(aMinute);
+                minHand.transform(["R", minute * 6, center, center]);
+                hourHand.transform(["R", hour * 30 + minute / 2, center, center]);
             }
 
         }
