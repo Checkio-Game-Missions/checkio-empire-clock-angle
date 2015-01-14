@@ -24,14 +24,22 @@
     In this mission we will use a clock without second hand.
     The hour hand moves smoothly and the minute hand moves step by step.
 </p>
+<p>
+    Аналоговые часы показывают время с помощью лицевой стороны часов, которая состоит из круглого 
+    циферблата с чилами от 1 до 12, часами в дне, around the outside.
+    Часы определяются часовой стрелкой, которая делает два оборота в день,
+    в то время как минуты определяются минутной стрелкой, котороая делает один оборот в час.
+    В этой миссии мы будем использовать часы без секундной стрелки.
+    Часовая стрелка вращается плавно, минутная стрелка двигается шаг за шагом.
+</p>
 
 <p>
-    You are given a time in 24-hour format and you should calculate a lesser angle between
-    the hour and minute hands in degrees. Don't forget that clock has numbers from 1 to 12,
-    so 23 == 11. The time is given as a string with the follow format "HH:MM",
-    where HH is hours and MM is minutes. Hours and minutes are given in two digits format,
-    so "1" will be writen as "01".
-    The result should be given in degrees with precious &plusmn;0.1.
+    Дано время в 24-часовом формате и вы должны высчитать меньший угол между часовой
+    и минутной стрелкой в градусах. Не забывайте, что на часах числа от1 до 12,
+    т.е. 23 == 11. Время дано как строка в следующем формате "ЧЧ:ММ",
+    где ЧЧ это часы и ММ это минуты. Часы и минуты даны в формте двух цифр,
+    т.е. "1" будети записано как "01".
+    Результат должен быть дан в градусах  с точностью &plusmn;0.1.
 </p>
 
 <p style="text-align: center;">
@@ -39,21 +47,21 @@
 </p>
 
 <p>
-    For example, on the given image we see "02:30" or "14:30" at the left part and
-    "01:42" or "13:42" at the right part. We need to find the lesser angle.
+    Например, на данном изображении мы видим "02:30" или "14:30" в левой части и
+    "01:42" или "13:42" в правой части. Мы должны найти меньший угол.
 </p>
 <p>
-    <strong>Input: </strong> A time as a string.
+    <strong>Входные данные: </strong> Время как строка.
 </p>
 
 <p>
-    <strong>Output: </strong> The lesser angle as an integer or a float.
+    <strong>Выходные данные: </strong> Меньший угол как целое или вещественное.
 </p>
 
 
 <div class="for_info_only">
     <p>
-        <strong>Example:</strong>
+        <strong>Пример:</strong>
     </p>
     <pre class="brush: python">
 clock_angle("02:30") == 105
@@ -62,11 +70,11 @@ clock_angle("01:43") == 153.5,</pre>
 </div>
 <br>
 <p class="for_info_only">
-    <strong>How it is used: </strong>
-    Simple mathematics and skill to built a model for various things from real world.
+    <strong>Как это используется: </strong>
+    Несложная математика и навык, чтобы построить модель для различных вещей в реальном мире.
 </p>
 
 <p>
-    <strong>Precondition:</strong><br>
+    <strong>Предусловие:</strong><br>
     re.match("\A((2[0-3])|([0-1][0-9])):[0-5][0-9]\Z", time)
 </p>
