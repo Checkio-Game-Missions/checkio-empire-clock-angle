@@ -1,6 +1,4 @@
-How to measure an angle without a protractor?
-Sometime in battles we should use any things.
-So the simple analog clock can help us.
+How do we measure an angle without a protractor? Sometime in battles things get complicated and we need to use the things around us in creative ways. To get the degrees of an angle, a simple analog clock can help us out here.
 
 Analog clocks display time with an analog clock face, which consists
 of a round dial with the numbers 1 through 12, the hours in the day, around the outside.
