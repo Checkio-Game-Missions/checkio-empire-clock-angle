@@ -15,4 +15,6 @@ if (!global.is_checking) {
     assert.equal(clockAngle("00:00"), 0, "Zero");
     assert.equal(clockAngle("12:01"), 5.5, "Little later");
     assert.equal(clockAngle("18:00"), 180, "Opposite");
+    console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
 }
+
