@@ -11,3 +11,5 @@ if __name__ == '__main__':
     assert clock_angle("00:00") == 0, "Zero"
     assert clock_angle("12:01") == 5.5, "Little later"
     assert clock_angle("18:00") == 180, "Opposite"
+
+    print("Now that you're finished, hit the 'Check' button to review your code and earn sweet rewards!")
